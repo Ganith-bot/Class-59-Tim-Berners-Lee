@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Nerko One', cursive;
+    padding-top: 600px;
+    margin: 0;
+}
+
+#tbl {
+    position: absolute;
+    background: linear-gradient(#91c8c9 0%, #2f66a8 100%);
+    display: table;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    height: 800px;
+    overflow: hidden;
+    color: #FFFFFF;
+    opacity: 0.83;
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+}
+
+.list1 {
+    right: 30px;
+    list-style: none;
+    font-family: 'Nerko One', cursive;
+    position: fixed;
+    top: 5px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.a1 {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Nerko One', cursive;
+}
+
+.a1:hover {
+    background-color: darkred;
+}
+
+.imgs {
+    border-radius: 40%;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+.bio1 {
+    height: 15px;
+    width: 1200px;
+    background-color:black;
+    margin: 10px auto;
+}
+
+p {
+    max-width: 500px;
+    margin: 30px auto;
+    font-family: 'Nerko One', cursive;
+}
+
+.tble {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+a {
+    text-decoration:none;
+    font-size: 30px;
+}
+a:hover {
+    background-color: blue;
+    color:white;
+}
